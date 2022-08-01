@@ -53,6 +53,7 @@
         let westmostTree;
 
         function initPage() {
+                log("dflskjfldsjk");
             theSite = new site();
             canvas = document.getElementById("campsSite");
             context = canvas.getContext("2d");
