@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>src="js/positioning.js"</script>
+</head>
+<body>
+
+    <p>Click the button to get your coordinates.</p>
+
+    <button onclick="initPage()">initPage</button>
+    <button onclick="setPosition(1)">Select first tree</button>
+    <button onclick="setPosition(2)">Select second tree</button>
+    <button onclick="setPosition(3)">Select third tree</button>
+    <button onclick="updateCurrentPosition()">Get current position</button>
+
+    <p id="currentPosition"></p>
+
+    <canvas id="campsSite" width="400" height="400" style="border:1px solid #000000;">
+    </canvas>
+    <p id="log"></p>
+
+
+</body>
+</html>
